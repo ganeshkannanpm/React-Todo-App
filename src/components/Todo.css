@@ -109,3 +109,17 @@ h1 {
 .delete-btn:hover {
   transform: scale(1.2);
 }
+
+.date-time {
+  color: #ccc;
+  margin-bottom: 10px;
+  font-size: 1.1rem;
+}
+
+.task-time {
+  color: #060f1b;
+  font-size: 0.9rem;
+  margin-top: 4px;
+  display: block;
+  margin-left: 30px;
+}

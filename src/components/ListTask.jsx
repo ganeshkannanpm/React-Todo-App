@@ -13,6 +13,7 @@ const ListTask = ({ task, index, removeTask }) => {
       layout
     >
       <span>{task.title}</span>
+      <small className="task-time">{task.time}</small>
       <button onClick={() => removeTask(index)} className="delete-btn">
         <FontAwesomeIcon icon={faTrash} />
       </button>
